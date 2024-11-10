@@ -1,0 +1,7 @@
+FROM postgres:16-alpine
+
+ENV POSTGRES_USER=test \
+    POSTGRES_DB=test \
+    # allow all connections without a password
+    POSTGRES_HOST_AUTH_METHOD=trust
+
