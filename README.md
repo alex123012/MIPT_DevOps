@@ -31,7 +31,7 @@ podman build -t nginx:mipt -f Dockerfile.nginx
 podman run --rm -p 8080:80 nginx:mipt
 ```
 
-Проверить задани:
+Проверить задание:
 
 ```bash
 curl 127.0.0.1:8080
